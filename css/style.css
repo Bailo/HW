@@ -1,0 +1,53 @@
+body {
+    background-color: #f0f0f0;
+}
+
+.main {
+    width: 960px;
+    margin: 0 auto;
+}
+
+a {
+    color: #23A171;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header nav a {
+    color: #981313;
+}
+
+section h2 {
+    color: #0600FF;
+}
+
+section p:first-letter {
+    font-size: 1.3em;
+}
+section.faq dt, dd {
+    margin-bottom: 10px;
+}
+
+section.faq dt:before{
+    content: 'Q: ';
+}
+
+section.faq dd:before{
+    content: 'A: ';
+}
+
+
+section.register {
+    background-color: #DAE8FD;
+    font-size: 0.9em;
+    padding: 20px;
+}
+
+section.register input {
+    display: block;
+    margin-bottom: 20px;
+}
+
